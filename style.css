@@ -188,5 +188,31 @@ form{
     padding: 10px;
     border: none;
     font-weight: 600;
+}
 
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.intro p{
+    font-size: 1.3rem;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color:rgb(137, 135, 161);
+    font-size: 1rem
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }

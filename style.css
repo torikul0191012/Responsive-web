@@ -231,37 +231,50 @@ form{
   }
 
   .container {
-    padding: 15px; 
+    margin: auto 0;
+    padding: 5px; 
   }
 
   .center {
     flex-direction: row;
     justify-content: space-between;
   }
-
+  .hero{
+    margin-top: 0;
+  }
+  .hero-text{
+    margin: auto 0;
+    width: 100%;
+  }
   .hero-text h1 {
-    font-size: 2rem; 
+    font-size: 1.2rem;
+    width: 150px; 
+    padding: 0;
   }
 
   .hero-text p {
-    font-size: 1rem; 
-    width: auto;
+    font-size: .5rem; 
+    width: 100%;
     text-align: left;
+    padding: 0;
   }
 
   .hero img {
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
 /* Our Plants */
   .plant-text{
     margin: auto 0;
   }
-
+  .plant-text h2{
+    font-size: 1.5rem;
+  }
   .plant-text p {
-    display: inline;
+    font-size: .7rem;
+    display: block;
   }
   .cards{
     display: grid;
@@ -273,7 +286,12 @@ form{
 .card-1{
     width: 100%;
     margin: auto 0;
-    
+    padding: 0;
+    margin: 0;
+}
+.card-1 img {
+    width: 100%;
+    margin: auto 0;
 }
 
 /* FLOWER & PLANT LOVER*/
@@ -282,8 +300,9 @@ form{
     justify-content: center;
     justify-items: center;
     flex-direction: column;
-    margin: 5px;
-    padding: 5px;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 .plant-lover img {
     width: 100%;
@@ -292,9 +311,14 @@ form{
 .lover-text{
     width: 100%;
     margin: auto 0;
+    
+}
+.lover-text h2{
+    font-size: 1.5rem ;
+    
 }
 .lover-text ul,li{
-    font-size: 1rem;
+    font-size: .7rem;
     padding: 10px;
     text-align: justify;
     width: 100%;
@@ -310,7 +334,7 @@ form{
     margin-top: 30px;
 }
 .Join h1{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: white;
     margin-bottom: 20px;
@@ -334,6 +358,9 @@ input{
     flex-direction: column;
     gap: 30px;
 }
+.footer p{
+    font-size: .8rem;
+}
 .links{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -342,5 +369,5 @@ input{
 .links a{
     text-decoration: none;
     color:rgb(137, 135, 161);
-    font-size: 1rem }
+    font-size: .9rem }
 }

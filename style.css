@@ -129,3 +129,32 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
+/* Flower & Plants Lover */
+.plant-lover{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:80px;
+    margin-top: 150px;
+    position: relative;
+}
+.lover-text{
+    width: 700px;
+    
+}
+.lover-text h2{
+    font-size: 3rem;
+}
+.lover-text ul,li{
+    font-size: 1.1rem;
+    padding: 35px;
+    text-align: justify;
+}
+.trust-badge{
+    position: absolute;
+    right: 520px;
+    top: -90px ;
+    width: 200px;
+    height:200px
+}

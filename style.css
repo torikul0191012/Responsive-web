@@ -85,3 +85,47 @@ nav ul li a{
     font-size: 3rem;
     padding: 8px;
 }
+
+
+/* Our Plants */
+.plant-text{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+}
+.plant-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card-1{
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+.card-1 h2,p{
+    padding: 10px;
+}
+.card-1 h2{
+    font-size: large;
+    font-weight: 200;
+}
+.card-1 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.btncard{
+    width: 85%; 
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    font-size: large;
+    font-weight: 500;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

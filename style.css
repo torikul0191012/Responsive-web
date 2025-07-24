@@ -1,0 +1,87 @@
+/* font size */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Universal*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgba(245,248,255,255);
+}
+
+
+/* Common Class */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.acolor{
+    color: rgb(137, 135, 161);
+}
+.orange-text{
+    color: rgb(233, 90, 8)
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(233, 90, 8);
+    color: white;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+
+/* header sec*/
+header img{
+    width: 130px;
+    height: 75px;
+}
+nav ul li {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+/* banner sec*/
+.hero{
+    margin-top: 200px;
+}
+.hero img{
+    width:570px;
+    height: 350px;
+}
+.hero-text p {
+    width: 380px;
+    text-align: justify;
+    padding-top: 20px;  
+}
+.hero-text h1{
+    font-size: 3rem;
+    padding: 8px;
+}
